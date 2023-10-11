@@ -1,0 +1,101 @@
+For C file - C:\Users\User\CLionProjects\SystemProgLab3\tests\test1.txt
+Preprocessor Directive - #include
+Operator - <
+Identifier - stdio
+Delimiter - .
+Identifier - h
+Operator - >
+Keyword - int
+Keyword - main
+Delimiter - (
+Delimiter - )
+Delimiter - {
+Keyword - int
+Identifier - i
+Delimiter - ,
+Identifier - n
+Delimiter - ;
+Comment - // initialize first and second terms
+Keyword - int
+Identifier - t1
+Operator - =
+Number - 0
+Delimiter - ,
+Identifier - t2
+Operator - =
+Number - 1
+Delimiter - ;
+Comment - // initialize the next term (3rd term)
+Keyword - int
+Identifier - nextTerm
+Operator - =
+Identifier - t1
+Operator - +
+Identifier - t2
+Delimiter - ;
+Comment - // get no. of terms from user
+Keyword - printf
+Delimiter - (
+String Literal - "Enter the number of terms: "
+Delimiter - )
+Delimiter - ;
+Keyword - scanf
+Delimiter - (
+String Literal - "%d"
+Delimiter - ,
+Operator - &
+Identifier - n
+Delimiter - )
+Delimiter - ;
+Comment - // print the first two terms t1 and t2
+Keyword - printf
+Delimiter - (
+String Literal - "Fibonacci Series: %d, %d, "
+Delimiter - ,
+Identifier - t1
+Delimiter - ,
+Identifier - t2
+Delimiter - )
+Delimiter - ;
+Comment - // print 3rd to nth terms
+Keyword - for
+Delimiter - (
+Identifier - i
+Operator - =
+Number - 3
+Delimiter - ;
+Identifier - i
+Operator - <=
+Identifier - n
+Delimiter - ;
+Operator - ++
+Identifier - i
+Delimiter - )
+Delimiter - {
+Keyword - printf
+Delimiter - (
+String Literal - "%d, "
+Delimiter - ,
+Identifier - nextTerm
+Delimiter - )
+Delimiter - ;
+Identifier - t1
+Operator - =
+Identifier - t2
+Delimiter - ;
+Identifier - t2
+Operator - =
+Identifier - nextTerm
+Delimiter - ;
+Identifier - nextTerm
+Operator - =
+Identifier - t1
+Operator - +
+Identifier - t2
+Delimiter - ;
+Delimiter - }
+Keyword - return
+Number - 0
+Delimiter - ;
+Delimiter - }
+
