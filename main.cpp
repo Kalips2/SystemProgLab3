@@ -58,17 +58,6 @@ void writeResults(const std::string &path, const std::string &text) {
     result_file.close();
 }
 
-bool match(std::vector<bool>& matched, int l, int r) {
-    assert(l <= r);
-    for (int i = l; i <= r; i++) {
-        if (matched[i]) {
-            return false;
-        }
-        matched[i] = true;
-    }
-    return true;
-}
-
 std::string analyze(const std::string &text) {
 
     std::vector<PatternWithName> patterns = {
